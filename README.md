@@ -8,3 +8,7 @@ So I've updated the source FORTRAN code to 64-bit API following the guide from h
 
 I've compiled the mex file in winodws and linux, but didn't compile one for mac because I don't have one.
 But you should be able to compile it yourself.
+
+The only changes that are actually made are in the glmnetMex.F code.
+Other changes include renaming GLMnet.f into GLMnet.F (capital F), and re-compiling the mex functions *.mexa64 and *.mexw64.
+These files prior to change are included in the zip file _original32bitcopy.zip
